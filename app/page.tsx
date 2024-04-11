@@ -4,6 +4,7 @@ import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import { lusitana, inter } from './ui/fonts';
 import Image from 'next/image';
+import NavLinks from './ui/dashboard/nav-links';
 
 export default function Page() {
   return (
@@ -28,7 +29,7 @@ export default function Page() {
           <LogosCara />
         <p className={lusitana.className}><b>designed by Sergio Tirado Rosales</b></p>
           <Link
-          href="/dashboard"
+          href="/dashboard/invoices"
           className="flex items-center gap-5 self-start rounded-lg bg-pink-500 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
           >
             <span>Log in</span> <ArrowRightIcon className="w-5 md:w-6" />
