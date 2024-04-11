@@ -28,7 +28,7 @@ export default function Page() {
           <LogosCara />
         <p className={lusitana.className}><b>designed by Sergio Tirado Rosales</b></p>
           <Link
-          href="http://localhost:3000/dashboard"
+          href="/dashboard"
           className="flex items-center gap-5 self-start rounded-lg bg-pink-500 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
           >
             <span>Log in</span> <ArrowRightIcon className="w-5 md:w-6" />
