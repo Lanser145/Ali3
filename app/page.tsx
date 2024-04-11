@@ -1,6 +1,5 @@
 import { LogoCara, LogosCara } from '@/app/ui/logos';
 import AcmeLogo from '@/app/ui/logos';
-import styles from '@/app/ui/home.module.css';
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import { lusitana, inter } from './ui/fonts';

@@ -1,10 +1,4 @@
-import { LogoCara, LogosCara } from '@/app/ui/logos';
-import AcmeLogo from '@/app/ui/logos';
-import { ArrowRightIcon } from '@heroicons/react/24/outline';
-import Link from 'next/link';
-import { lusitana } from '@/app/ui/fonts';
 import Image from 'next/image';
-import SideNav from '../ui/dashboard/sidenav';
 
 export default function Page() {
   return (
